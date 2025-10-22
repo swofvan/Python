@@ -26,8 +26,8 @@ print(Python - Data_Science)
 print(Python.union(Data_Science))
 
 num_of_stu = {
-    "Python" : 5,
-    "Data Science" : 4
+    "Python" : len(Python),
+    "Data Science" : len(Data_Science)
 }
 print(num_of_stu)
 

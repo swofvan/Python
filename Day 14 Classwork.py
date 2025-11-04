@@ -31,4 +31,4 @@ total_uniqe_names = len(uniqe_names)
 print(f"Total Uniqe Names: {total_uniqe_names}")
 
 square_root = math.sqrt(total_uniqe_names)
-print(f"Squere root: {square_root}")
+print(f"Squere root: {math.ceil(square_root)}")

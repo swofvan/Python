@@ -1,4 +1,6 @@
 # Reverse the order of words in a sentence
+# input: I love You
+# output: You Love I
 
 text = input("Enter a secntance: ");
 words = text.split()

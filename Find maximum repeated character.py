@@ -14,4 +14,4 @@ for t in text:
         max_count = count
         max_char = t
 
-print(f"hello: {max_char}")
+print(max_char)

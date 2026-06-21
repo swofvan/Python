@@ -1,7 +1,7 @@
 # Print all Prime Numbers in an Interval
 
-lower = 900
-upper = 1000
+lower = int(input("Enter Starting Number: "))
+upper = int(input("Enter Ending Number: "))
 
 
 for num in range(lower, upper + 1):

@@ -8,7 +8,7 @@ words = text.split()
 longest = ""
 
 for w in words:
-    if len(words) > len(longest):
+    if len(w) > len(longest):
         longest = w
 
 print(longest)

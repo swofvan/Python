@@ -35,6 +35,14 @@ while True:
         if user_input == sys_num:
             print("Winner")
 
-            
+            continue_play = input(f"\nDo you want to continue? (y/n): ").lower
+
+            if continue_play == "y":
+                sys_num = system_number()
+                continue
+
+            else:
+                break
+
         print(f"you got {count_of_tortoise} tortoise")
         print(f"youb got {count_of_rabbit} rabbits")

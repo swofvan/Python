@@ -29,6 +29,7 @@ if len(password) >= 8 and upper_case and lower_case and is_sp_char and number:
 
 else:
     print("Invalid Password")
+
     if len(password) < 8:
         print("Password must need at least 8 characters")
     if not upper_case:
